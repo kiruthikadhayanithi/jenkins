@@ -1,3 +1,12 @@
+const express = require('express');
+const app = express();
 
-  console.log(" Slack testing");
+
+app.get('/', (req,res) => {
+    console.log(" Slack testing");
+    res.send("jenkins")
+})
+
+app.listen(3000)
+  
 
