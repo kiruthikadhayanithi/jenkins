@@ -8,3 +8,6 @@ app.get("/", (req, res) => {
 
 console.log("Hello Jenkins");
 
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`);
+});
