@@ -12,6 +12,10 @@ app.get("/", (req, res) => {
   res.send("Hello Worldlkllkfjklk!");
 });
 
+app.get("/", (req, res) => {
+  res.send("Hello Worldlkllkfjklk!");
+})
+
 console.log("Hello Jenkin");
 
 app.listen(port, () => {
