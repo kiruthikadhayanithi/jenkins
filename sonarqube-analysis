@@ -1,6 +1,8 @@
 node{
-    stage('SCM checkout'){
-        git 'https://github.com/kiruthikadhayanithi/jenkins'
+    stage('Git checkout'){
+        steps{
+            git branch: 'demodev', url: 'https://github.com/kiruthikadhayanithi/jenkins'
+        }
     }
     stage('Compile-Package'){
         def mvnHome = tool name: 'maven' , type: 'maven'
