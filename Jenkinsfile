@@ -3,7 +3,7 @@ pipleline{
   agent any
 
   tools {
-    nodejs '16'
+    nodejs 'node'
   }
 
   stages {
