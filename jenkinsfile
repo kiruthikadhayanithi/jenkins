@@ -2,11 +2,15 @@ pipleline{
 
   agent any
 
+  tools {
+    nodejs '16'
+  }
+
   stages {
-    stage("build") {
+    stage("example") {
 
       step {
-        sh "npm install"
+        sh "node --version"
       }
     }
   }
