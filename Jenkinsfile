@@ -7,9 +7,13 @@ pipleline{
   }
 
   stages {
-    stage("Build") {
+    stage("install") {
       steps {
         sh "npm install"
+      }
+      stage("Build") {
+      steps {
+        sh "npm run build"
       }
     }
   }
