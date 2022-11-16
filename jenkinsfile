@@ -7,10 +7,9 @@ pipleline{
   }
 
   stages {
-    stage("example") {
-
-      step {
-        sh "node --version"
+    stage("Build") {
+      steps {
+        sh "npm install"
       }
     }
   }
