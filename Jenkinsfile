@@ -10,6 +10,13 @@ pipeline {
         stage('Build') {
             steps {
                 sh'npm install'
+
+            }
+        }
+         stage('Example') {
+            steps {
+                sh'mvn --version'
+                
             }
         }
     }
