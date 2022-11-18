@@ -23,11 +23,11 @@ pipeline {
           steps {
                 
                  echo "Sonarqube"
-                //  -D sonar.login=admin \
-                //  -D sonar.password=Sonarqube@123 \
-                //  -D sonar.projectKey=jenkins\
-                //  -D sonar.sources=/var/lib/jenkins/workspace/Testing git \
-                //  -D sonar.host.url=http://localhost:9000/"
+                 -D sonar.login=admin \
+                 -D sonar.password=Sonarqube@123 \
+                 -D sonar.projectKey=jenkins\
+                 -D sonar.sources=/var/lib/jenkins/workspace/Testing git \
+                 -D sonar.host.url=http://localhost:9000/
                 }
           }
              
