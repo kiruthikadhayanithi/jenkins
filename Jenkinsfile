@@ -15,7 +15,7 @@ pipeline {
         }
          stage('Example') {
             steps {
-                sh'mvn --version'
+                sh'node --version'
                 
             }
         } 
