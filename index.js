@@ -9,6 +9,8 @@ app.get("/", (req, res) => {
 
 console.log("Hello Jenkin");
 
+console.log("Hello Jenkin");
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
