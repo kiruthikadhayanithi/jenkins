@@ -16,6 +16,10 @@ app.get("/", (req, res) => {
   res.send("Hello !");
 });
 
+app.get("/", (req, res) => {
+  res.send("Hello !");
+});
+
 
 if('ok'){
   console.log("A")
