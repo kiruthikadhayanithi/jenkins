@@ -17,13 +17,12 @@ app.get("/", (req, res) => {
 });
 
 
-// console.log("Hello Jenkin");
-
-// console.log("Hello Jenkin");
-
-console.log("Hello Jenkin");
-
-console.log("Hello Jenkin");
+if('ok'){
+  console.log("A")
+}
+if('b'){
+  console.log('b')
+}
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
