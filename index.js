@@ -7,26 +7,6 @@ app.get("/", (req, res) => {
   res.send("Hello Worldlkllkjfklk!");
 });
 
-app.get("/", (req, res) => {
-  res.send("Hello Worldlkllkjfklk!");
-});
-
-
-app.get("/", (req, res) => {
-  res.send("Hello !");
-});
-
-app.get("/", (req, res) => {
-  res.send("Hello !");
-});
-
-
-if('ok'){
-  console.log("A")
-}
-if('b'){
-  console.log('b')
-}
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
